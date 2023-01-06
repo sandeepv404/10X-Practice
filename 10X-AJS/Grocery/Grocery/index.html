@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="c1">
+        <form action="">
+            <label for="Item-Name"></label>
+            <input type="text" name="Item-Name" id="Item-name" placeholder="Item-Name" required />
+            <br />
+            <label for="price"></label>
+            <input type="number" name="price" id="price" placeholder="Price" required />
+        </form>
+        <button type="reset" id="but">ADD</button>
+    </div>
+    <div class="c2">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Item Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Grand Total</td>
+                    <td id="total">0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
