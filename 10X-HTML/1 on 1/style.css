@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.c1 {
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(161, 203, 239);
+
+}
+
+.c2 {
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding: 10px;
+    background-color: rgb(161, 203, 239);
+
+}
+
+.r1 {
+    display: table;
+    width: 50%;
+    height: 50%;
+
+}
+
+
+#sec1 {
+    height: 50%;
+    padding: 20px;
+
+}

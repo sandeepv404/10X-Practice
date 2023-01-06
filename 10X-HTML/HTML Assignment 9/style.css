@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(127, 199, 136);
+}
+
+h1 {
+    text-align: center;
+}
+
+#form {
+    border-radius: 5px;
+    background-color: rgb(192, 218, 243);
+    padding: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(213, 193, 214);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10%;
+    background-color: green;
+    color: rgb(227, 233, 177);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: lightblue;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    margin: 1em;
+}

@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+div {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+img {
+    float: left;
+    width: 100%;
+    padding: 1px;
+    height: 380px;
+}
+
+#div1 {
+    background: #0000
+}
+
+#div2 {
+    background: #1111;
+}
+
+#div3 {
+    background: #1111;
+}
+
+#div4 {
+    background: #0000;
+}
